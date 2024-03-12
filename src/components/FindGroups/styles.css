@@ -1,0 +1,12 @@
+.findGroups {
+    display: flex;
+    /* justify-content: flex-start; */
+    /* padding: 20px; */
+    cursor: pointer;
+    align-items: center;
+  }
+
+.custom-hover-class:hover {
+    background-color: lightgray;
+    /* Другие стили для hover... */
+  }
