@@ -17,3 +17,9 @@ export interface User {
   first_name: string,
   last_name: string
 }
+
+export interface Card {
+  groups: Group[],
+  group: Group,
+  setGroups: React.Dispatch<React.SetStateAction<Group[]>>
+ }
